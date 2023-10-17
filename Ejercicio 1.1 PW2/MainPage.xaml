@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_1._1_PW2.MainPage">
+
+    <StackLayout>
+        <Entry Placeholder="Numero 1" x:Name="txtNum1" TextChanged="OnNumber1TextChanged" />
+        <Entry Placeholder="Numero 2" x:Name="txtNum2" TextChanged="OnNumber2TextChanged" />
+
+        <Button Text="Suma" Clicked="SumaClicked" />
+        <Button Text="Resta" Clicked="RestaClicked" />
+        <Button Text="Multiplicacion" Clicked="MultiClicked" />
+        <Button Text="Division" Clicked="DivisionClicked" />    
+    </StackLayout>
+
+</ContentPage>
